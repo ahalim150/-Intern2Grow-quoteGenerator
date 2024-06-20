@@ -79,3 +79,20 @@ h1{
     grid-column: 2/4;
     grid-row: 1;
 }
+.social-share {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.social-share a {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.social-share a:hover {
+    background-color: #0056b3;
+}
